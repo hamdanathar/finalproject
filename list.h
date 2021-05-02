@@ -11,3 +11,5 @@ card *findCard(person *h, char query[]);
 void addCard(card data, card *loc, card **h, card **t);
 
 void deleteCard(card *loc, card **h, card **t);
+
+void shuffleCards();
