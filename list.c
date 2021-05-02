@@ -69,3 +69,8 @@ void deleteCard(card *loc, card **h, card **t) {
     
     free(loc); // free memory
 }
+
+
+
+void shuffleCards() {
+}
