@@ -4,7 +4,7 @@ typedef struct card_s {
     struct card_s *next, *previous;
 } card;
 
-void printStack(card *pt);
+void printList(card *pt);
 
 card *findCard(person *h, char query[]);
 
